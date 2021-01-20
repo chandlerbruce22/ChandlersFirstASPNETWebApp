@@ -1,0 +1,32 @@
+﻿body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+label {
+    font-size: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+ul.quiz li {
+      list-style-type: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.jobstitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jobs {
+    font-size: 20px;
+}

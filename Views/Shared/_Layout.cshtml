@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="~/css/main.css" rel="stylesheet" />
+
+    <!-- Icon for the page-->
+    <link rel="icon" href="~/img/ballicon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Chandler Bruce</h1>
+        <menu>
+            <ul>
+                <!-- Navigation layout -->
+                <li> <a asp-controller="Home" asp-action="Index">Home</a> </li>
+                <li><a asp-controller="Home" asp-action="Calculator">Calculator</a></li>
+            </ul>
+        </menu>
+    </header>
+    <!-- Where the other pages inherit from-->
+    @RenderBody()
+
+    <!-- Linking jquery and javascript -->
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/calculator.js"></script>
+
+</body>
+
+</html>
